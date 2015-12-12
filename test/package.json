@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "dependencies": {
+    "chai": "^3.4.0",
+    "chai-as-promised": "^5.1.0"
+  }
+}

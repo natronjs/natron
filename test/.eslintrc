@@ -1,0 +1,6 @@
+{
+  "extends": "natron/test",
+  "globals": {
+    "assert": true
+  }
+}

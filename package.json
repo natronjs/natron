@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "homepage": "http://natronjs.com/",
+  "author": "Stefan Rumzucker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natronjs/natron.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-plugin-transform-flow-strip-types": "^6.0.0",
+    "babel-plugin-transform-object-assign": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-0": "^6.0.0",
+    "babel-register": "^6.0.0"
+  },
+  "license": "MIT"
+}

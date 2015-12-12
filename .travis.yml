@@ -1,0 +1,33 @@
+#
+# .travis.yml
+#
+
+language: "node_js"
+
+node_js:
+  - "stable"
+  - "0.12"
+  - "0.10"
+  # Long-term Support
+  - "4.2" # Argon
+
+install:
+  # Install Global Modules
+  - "npm install eslint babel-eslint natronjs/eslint-config-natron"
+  - "npm install mocha"
+
+  # Install Standard Library
+  - "npm install core-js"
+
+  # Install Local Modules
+  - "npm install"
+
+  # Install Test Modules
+  - "npm --prefix test install"
+
+script:
+  # ESLint: Lint Packages
+  - "node_modules/.bin/eslint packages/*/src"
+
+  # Mocha: Test Packages
+  - "node_modules/.bin/mocha packages/*/test"

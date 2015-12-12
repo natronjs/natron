@@ -1,0 +1,22 @@
+{
+  "name": "natron-hrtime-format",
+  "version": "0.2.0-beta.1",
+  "description": "High-Resolution Time Format",
+  "keywords": [
+    "natron",
+    "hrtime",
+    "format",
+    "util"
+  ],
+  "homepage": "http://natronjs.com/",
+  "author": "Stefan Rumzucker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natronjs/natron.git"
+  },
+  "main": "dist/cjs/__main__",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "license": "MIT"
+}
